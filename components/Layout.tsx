@@ -1,9 +1,9 @@
-import Navbar from "./Navbar.component";
+import MainNavbar from "./MainNavbar.component";
 import Footer from "./Footer.component";
 export default function Layout(props: any) {
   return (
     <>
-      <Navbar />
+      <MainNavbar />
       {props.children}
       <Footer />
     </>
